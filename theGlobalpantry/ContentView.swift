@@ -8,14 +8,47 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!!")
+        NavigationStack {
+            ZStack{
+                Color("Color")
+                    .ignoresSafeArea()
+                    VStack{
+                        
+                        Image("logo")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 350.0)
+                        //.resizable(resizingMode: .stretch) .aspectRatio(contentMode: .fit).frame(height: 400.0)
+                        
+                        Spacer()
+                            .frame(height: 50.0)
+                        
+                        Text("Tap on a continent, which could give you a couple of recipes from underrepresented countries and ethnic minorities within a country.")
+                            .font(.title2)
+                            .multilineTextAlignment(.center)
+                        Spacer()
+                            .frame(height: 50.0)
+                        NavigationLink(destination: continents()) {
+                            Text("Get Started!")}
+                                .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
+                                .foregroundColor(Color("Color"))
+                        
+                        .padding()
+                        .background(Color("Color 1"))
+                                    .foregroundColor(.white)
+                                    .font(.headline)
+                                    .cornerRadius(10)
+                        
+                       
+                    } .padding()
+                    
+            
+                
+      
+            }
         }
-        .padding()
     }
 }
 
