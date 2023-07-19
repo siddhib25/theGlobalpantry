@@ -13,7 +13,19 @@ struct asia: View {
             ZStack {
                 Color("Color")
                     .ignoresSafeArea()
+            HStack {
+                    NavigationLink(destination: asiaRecipe()) {
+                        Image("lok lak")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            
+                    }
+                Image("dolma")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+            }.padding()
             }
+
         }
     }
 }

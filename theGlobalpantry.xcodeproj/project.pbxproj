@@ -19,6 +19,7 @@
 		BE7221D32A68355D002D74A9 /* southAmerica.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221D22A68355D002D74A9 /* southAmerica.swift */; };
 		BE7221D52A68356F002D74A9 /* australia.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221D42A68356F002D74A9 /* australia.swift */; };
 		BE7221D72A683588002D74A9 /* antarctica.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221D62A683588002D74A9 /* antarctica.swift */; };
+		BE7221D92A686080002D74A9 /* asiaRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221D82A686080002D74A9 /* asiaRecipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		BE7221D22A68355D002D74A9 /* southAmerica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southAmerica.swift; sourceTree = "<group>"; };
 		BE7221D42A68356F002D74A9 /* australia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = australia.swift; sourceTree = "<group>"; };
 		BE7221D62A683588002D74A9 /* antarctica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = antarctica.swift; sourceTree = "<group>"; };
+		BE7221D82A686080002D74A9 /* asiaRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asiaRecipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				BE7221782A65BF03002D74A9 /* ContentView.swift */,
 				BE7221C82A682E7F002D74A9 /* continents.swift */,
 				BE7221CA2A683406002D74A9 /* asia.swift */,
+				BE7221D82A686080002D74A9 /* asiaRecipe.swift */,
 				BE7221CE2A683539002D74A9 /* africa.swift */,
 				BE7221D02A68354F002D74A9 /* northAmerica.swift */,
 				BE7221D22A68355D002D74A9 /* southAmerica.swift */,
@@ -167,6 +170,7 @@
 				BE7221D32A68355D002D74A9 /* southAmerica.swift in Sources */,
 				BE7221C92A682E7F002D74A9 /* continents.swift in Sources */,
 				BE7221CD2A6834B7002D74A9 /* europe.swift in Sources */,
+				BE7221D92A686080002D74A9 /* asiaRecipe.swift in Sources */,
 				BE7221D12A68354F002D74A9 /* northAmerica.swift in Sources */,
 				BE7221772A65BF03002D74A9 /* theGlobalpantryApp.swift in Sources */,
 				BE7221CB2A683406002D74A9 /* asia.swift in Sources */,
