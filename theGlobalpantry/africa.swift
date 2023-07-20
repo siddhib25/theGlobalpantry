@@ -16,24 +16,24 @@ struct africa: View {
                     .ignoresSafeArea()
                 VStack{
                     HStack {
-                        NavigationLink(destination: asiaRecipe()) {
-                            Image("lok lak")
+                        NavigationLink(destination: africaRecipe()) {
+                            Image("Maafe")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 150.0, height:250)
                             
                         }
-                        Image("dolma")
+                        Image("Fufu")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 150.0, height:250)
                     }.padding()
                     HStack{
-                        Image("Hmong")
+                        Image("doroWat")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 150.0, height:250)
-                        Image("Manti")
+                        Image("Puri")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 150.0, height:250)

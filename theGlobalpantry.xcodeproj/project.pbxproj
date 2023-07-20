@@ -25,6 +25,7 @@
 		BE7221D52A68356F002D74A9 /* australia.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221D42A68356F002D74A9 /* australia.swift */; };
 		BE7221D72A683588002D74A9 /* antarctica.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221D62A683588002D74A9 /* antarctica.swift */; };
 		BE7221D92A686080002D74A9 /* asiaRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221D82A686080002D74A9 /* asiaRecipe.swift */; };
+		D1CB6BD22A69A44E0048E76E /* africaRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB6BD12A69A44E0048E76E /* africaRecipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		BE7221D42A68356F002D74A9 /* australia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = australia.swift; sourceTree = "<group>"; };
 		BE7221D62A683588002D74A9 /* antarctica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = antarctica.swift; sourceTree = "<group>"; };
 		BE7221D82A686080002D74A9 /* asiaRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asiaRecipe.swift; sourceTree = "<group>"; };
+		D1CB6BD12A69A44E0048E76E /* africaRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = africaRecipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				116E99B92A69A0F700A831E7 /* asiaRecipe2.swift */,
 				BE7221D82A686080002D74A9 /* asiaRecipe.swift */,
 				BE7221CE2A683539002D74A9 /* africa.swift */,
+				D1CB6BD12A69A44E0048E76E /* africaRecipe.swift */,
 				BE7221D02A68354F002D74A9 /* northAmerica.swift */,
 				116E99B52A69876F00A831E7 /* northAmericaRecipe.swift */,
 				BE7221D22A68355D002D74A9 /* southAmerica.swift */,
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7221792A65BF03002D74A9 /* ContentView.swift in Sources */,
+				D1CB6BD22A69A44E0048E76E /* africaRecipe.swift in Sources */,
 				BE7221CF2A683539002D74A9 /* africa.swift in Sources */,
 				116E99B62A69876F00A831E7 /* northAmericaRecipe.swift in Sources */,
 				BE7221D52A68356F002D74A9 /* australia.swift in Sources */,
