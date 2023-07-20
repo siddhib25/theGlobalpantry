@@ -33,7 +33,7 @@ struct northAmerica: View {
                         .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                         .frame(width: 150.0, height:250)
-                        Image("Chicken")
+                        Image("Tostones")
                         .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                         .frame(width: 150.0, height:250)
