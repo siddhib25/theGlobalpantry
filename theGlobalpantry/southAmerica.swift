@@ -9,7 +9,42 @@ import SwiftUI
 
 struct southAmerica: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("South America")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(Color("Color 1"))
+            ZStack{
+                Color("Color")
+                    .ignoresSafeArea()
+                VStack{
+                    HStack {
+                        NavigationLink(destination: southAmericaRecipe()) {
+                            Image("Pom")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 150.0, height:252.0)
+                        }
+                        Image("Sil")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 150.0, height:250)
+                    }
+                    HStack{
+                        Image("Sopa")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 150.0, height:250)
+                        Image("Pepper")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 150.0, height:250)
+                        
+                    }
+                    .padding(.all)
+                }
+            }
+        }
     }
 }
 
