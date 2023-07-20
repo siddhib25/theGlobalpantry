@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116E99B22A68F7AB00A831E7 /* europeRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E99B12A68F7AB00A831E7 /* europeRecipe.swift */; };
 		BE7221772A65BF03002D74A9 /* theGlobalpantryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221762A65BF03002D74A9 /* theGlobalpantryApp.swift */; };
 		BE7221792A65BF03002D74A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221782A65BF03002D74A9 /* ContentView.swift */; };
 		BE72217B2A65BF05002D74A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE72217A2A65BF05002D74A9 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		116E99B12A68F7AB00A831E7 /* europeRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = europeRecipe.swift; sourceTree = "<group>"; };
 		BE7221732A65BF03002D74A9 /* theGlobalpantry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theGlobalpantry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7221762A65BF03002D74A9 /* theGlobalpantryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theGlobalpantryApp.swift; sourceTree = "<group>"; };
 		BE7221782A65BF03002D74A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				BE7221D42A68356F002D74A9 /* australia.swift */,
 				BE7221D62A683588002D74A9 /* antarctica.swift */,
 				BE7221CC2A6834B7002D74A9 /* europe.swift */,
+				116E99B12A68F7AB00A831E7 /* europeRecipe.swift */,
 				BE72217A2A65BF05002D74A9 /* Assets.xcassets */,
 				BE72217C2A65BF05002D74A9 /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				BE7221D52A68356F002D74A9 /* australia.swift in Sources */,
 				BE7221D32A68355D002D74A9 /* southAmerica.swift in Sources */,
 				BE7221C92A682E7F002D74A9 /* continents.swift in Sources */,
+				116E99B22A68F7AB00A831E7 /* europeRecipe.swift in Sources */,
 				BE7221CD2A6834B7002D74A9 /* europe.swift in Sources */,
 				BE7221D92A686080002D74A9 /* asiaRecipe.swift in Sources */,
 				BE7221D12A68354F002D74A9 /* northAmerica.swift in Sources */,

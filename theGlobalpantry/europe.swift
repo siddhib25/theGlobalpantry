@@ -9,12 +9,46 @@ import SwiftUI
 
 struct europe: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("Europe")
+            ZStack{
+                Color("Color")
+                    .ignoresSafeArea()
+                VStack{
+                    HStack {
+                        NavigationLink(destination: europeRecipe()) {
+                            Image("Malta")
+                                .resizable(resizingMode: .stretch)
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 150.0, height:252.0)
+                        }
+                        Image("Welsh")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 150.0, height:250)
+                    }
+                    HStack{
+                        Image("K")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 150.0, height:250)
+                        Image("Boxty")
+                            .resizable(resizingMode: .stretch)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 150.0, height:250)
+                        
+                    }
+                    .padding(.all)
+                }
+            }
+        }
+    }
+    
+    
+    struct europe_Previews: PreviewProvider {
+        static var previews: some View {
+            europe()
+        }
     }
 }
 
-struct europe_Previews: PreviewProvider {
-    static var previews: some View {
-        europe()
-    }
-}
