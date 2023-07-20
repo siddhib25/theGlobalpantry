@@ -11,6 +11,9 @@ struct asia: View {
     var body: some View {
         NavigationStack {
             Text("Asia")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(Color("Color 1"))
             ZStack {
                 Color("Color")
                     .ignoresSafeArea()
