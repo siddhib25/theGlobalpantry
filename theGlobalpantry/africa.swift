@@ -50,5 +50,7 @@ struct africa: View {
 }
 struct africa_Previews: PreviewProvider {
     static var previews: some View {
-        africa()}}
+        africa()
+    }
+}
 
