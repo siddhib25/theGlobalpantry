@@ -12,6 +12,7 @@ struct asiaRecipe: View {
         VStack{
             Image("asiaRecipe")
                 .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
         }
     }
 }

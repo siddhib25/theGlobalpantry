@@ -12,6 +12,7 @@ struct europeRecipe: View {
         VStack{
             Image("Kapatuna")
                 .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
                 
         }
     }

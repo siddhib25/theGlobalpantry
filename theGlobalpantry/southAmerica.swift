@@ -20,7 +20,7 @@ struct southAmerica: View {
                 VStack{
                     HStack {
                         NavigationLink(destination: southAmericaRecipe()) {
-                            Image("Pom")
+                            Image("Sopa")
                                 .resizable(resizingMode: .stretch)
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 150.0, height:252.0)
@@ -31,7 +31,7 @@ struct southAmerica: View {
                             .frame(width: 150.0, height:250)
                     }
                     HStack{
-                        Image("Sopa")
+                        Image("Pom")
                             .resizable(resizingMode: .stretch)
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 150.0, height:250)

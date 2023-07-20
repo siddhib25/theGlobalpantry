@@ -1,5 +1,5 @@
 //
-//  southAmericaRecipe.swift
+//  asiaRecipe2.swift
 //  theGlobalpantry
 //
 //  Created by CatherineWang on 7/20/23.
@@ -7,18 +7,18 @@
 
 import SwiftUI
 
-struct southAmericaRecipe: View {
+struct asiaRecipe2: View {
     var body: some View {
         VStack{
-            Image("south")
+            Image("asia2")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
         }
     }
 }
 
-struct southAmericaRecipe_Previews: PreviewProvider {
+struct asiaRecipe2_Previews: PreviewProvider {
     static var previews: some View {
-        southAmericaRecipe()
+        asiaRecipe2()
     }
 }

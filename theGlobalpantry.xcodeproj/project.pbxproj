@@ -11,6 +11,7 @@
 		116E99B42A69822B00A831E7 /* australiaRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E99B32A69822B00A831E7 /* australiaRecipe.swift */; };
 		116E99B62A69876F00A831E7 /* northAmericaRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E99B52A69876F00A831E7 /* northAmericaRecipe.swift */; };
 		116E99B82A698EF900A831E7 /* southAmericaRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E99B72A698EF900A831E7 /* southAmericaRecipe.swift */; };
+		116E99BA2A69A0F700A831E7 /* asiaRecipe2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116E99B92A69A0F700A831E7 /* asiaRecipe2.swift */; };
 		BE7221772A65BF03002D74A9 /* theGlobalpantryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221762A65BF03002D74A9 /* theGlobalpantryApp.swift */; };
 		BE7221792A65BF03002D74A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7221782A65BF03002D74A9 /* ContentView.swift */; };
 		BE72217B2A65BF05002D74A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE72217A2A65BF05002D74A9 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		116E99B32A69822B00A831E7 /* australiaRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = australiaRecipe.swift; sourceTree = "<group>"; };
 		116E99B52A69876F00A831E7 /* northAmericaRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northAmericaRecipe.swift; sourceTree = "<group>"; };
 		116E99B72A698EF900A831E7 /* southAmericaRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southAmericaRecipe.swift; sourceTree = "<group>"; };
+		116E99B92A69A0F700A831E7 /* asiaRecipe2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asiaRecipe2.swift; sourceTree = "<group>"; };
 		BE7221732A65BF03002D74A9 /* theGlobalpantry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theGlobalpantry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7221762A65BF03002D74A9 /* theGlobalpantryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theGlobalpantryApp.swift; sourceTree = "<group>"; };
 		BE7221782A65BF03002D74A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				BE7221782A65BF03002D74A9 /* ContentView.swift */,
 				BE7221C82A682E7F002D74A9 /* continents.swift */,
 				BE7221CA2A683406002D74A9 /* asia.swift */,
+				116E99B92A69A0F700A831E7 /* asiaRecipe2.swift */,
 				BE7221D82A686080002D74A9 /* asiaRecipe.swift */,
 				BE7221CE2A683539002D74A9 /* africa.swift */,
 				BE7221D02A68354F002D74A9 /* northAmerica.swift */,
@@ -180,6 +183,7 @@
 				BE7221CF2A683539002D74A9 /* africa.swift in Sources */,
 				116E99B62A69876F00A831E7 /* northAmericaRecipe.swift in Sources */,
 				BE7221D52A68356F002D74A9 /* australia.swift in Sources */,
+				116E99BA2A69A0F700A831E7 /* asiaRecipe2.swift in Sources */,
 				116E99B82A698EF900A831E7 /* southAmericaRecipe.swift in Sources */,
 				BE7221D32A68355D002D74A9 /* southAmerica.swift in Sources */,
 				BE7221C92A682E7F002D74A9 /* continents.swift in Sources */,
