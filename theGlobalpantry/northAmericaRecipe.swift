@@ -9,12 +9,16 @@ import SwiftUI
 
 struct northAmericaRecipe: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("moco")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+        }
     }
-}
-
-struct northAmericaRecipe_Previews: PreviewProvider {
-    static var previews: some View {
-        northAmericaRecipe()
+    
+    struct northAmericaRecipe_Previews: PreviewProvider {
+        static var previews: some View {
+            northAmericaRecipe()
+        }
     }
 }
